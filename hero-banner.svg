@@ -1,0 +1,33 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+    </filter>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="1920" height="1080" fill="url(#bg-gradient)" />
+  
+  <!-- Luxury Hotel Building Silhouette -->
+  <path d="M300,800 L300,400 L500,300 L700,400 L700,800 L300,800 Z" fill="#D4AF37" opacity="0.2" />
+  <path d="M800,800 L800,350 L1100,200 L1400,350 L1400,800 L800,800 Z" fill="#D4AF37" opacity="0.3" />
+  <path d="M1500,800 L1500,450 L1650,350 L1800,450 L1800,800 L1500,800 Z" fill="#D4AF37" opacity="0.2" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="960" cy="540" r="300" fill="#D4AF37" opacity="0.05" filter="url(#blur)" />
+  <circle cx="960" cy="540" r="200" fill="#D4AF37" opacity="0.05" filter="url(#blur)" />
+  
+  <!-- Horizontal Lines for Luxury Feel -->
+  <line x1="0" y1="850" x2="1920" y2="850" stroke="#D4AF37" stroke-width="2" opacity="0.3" />
+  <line x1="0" y1="860" x2="1920" y2="860" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <line x1="0" y1="870" x2="1920" y2="870" stroke="#D4AF37" stroke-width="1" opacity="0.1" />
+  
+  <!-- Luxury Hotel Text (for placeholder only) -->
+  <text x="960" y="540" font-family="serif" font-size="60" fill="#D4AF37" text-anchor="middle" opacity="0.7">LUXURY HOTEL</text>
+  <text x="960" y="620" font-family="serif" font-size="30" fill="#FFFFFF" text-anchor="middle" opacity="0.7">ELEGANCE • COMFORT • EXCELLENCE</text>
+</svg>

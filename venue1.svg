@@ -1,0 +1,83 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+    <radialGradient id="chandelier-glow" cx="50%" cy="30%" r="50%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="800" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Ballroom Floor -->
+  <rect x="100" y="400" width="600" height="150" fill="#D4AF37" opacity="0.2" />
+  
+  <!-- Floor Pattern -->
+  <path d="M100,400 L700,400 L700,550 L100,550 Z" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3" />
+  <path d="M100,425 L700,425" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M100,450 L700,450" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M100,475 L700,475" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M100,500 L700,500" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M100,525 L700,525" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  
+  <!-- Vertical Floor Pattern -->
+  <path d="M150,400 L150,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M200,400 L200,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M250,400 L250,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M300,400 L300,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M350,400 L350,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M400,400 L400,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M450,400 L450,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M500,400 L500,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M550,400 L550,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M600,400 L600,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  <path d="M650,400 L650,550" stroke="#D4AF37" stroke-width="1" opacity="0.2" />
+  
+  <!-- Ballroom Walls -->
+  <rect x="100" y="150" width="600" height="250" fill="#FFFFFF" opacity="0.1" />
+  
+  <!-- Wall Decorations -->
+  <rect x="150" y="200" width="100" height="150" fill="#D4AF37" opacity="0.1" />
+  <rect x="350" y="200" width="100" height="150" fill="#D4AF37" opacity="0.1" />
+  <rect x="550" y="200" width="100" height="150" fill="#D4AF37" opacity="0.1" />
+  
+  <!-- Chandelier Glow -->
+  <circle cx="400" cy="180" r="150" fill="url(#chandelier-glow)" opacity="0.6" />
+  
+  <!-- Chandelier -->
+  <circle cx="400" cy="180" r="50" fill="#D4AF37" opacity="0.2" filter="url(#blur)" />
+  <circle cx="400" cy="180" r="30" fill="#D4AF37" opacity="0.3" />
+  <circle cx="400" cy="180" r="10" fill="#FFFFFF" opacity="0.5" />
+  
+  <!-- Chandelier Hanging -->
+  <line x1="400" y1="50" x2="400" y2="150" stroke="#D4AF37" stroke-width="2" opacity="0.5" />
+  
+  <!-- Chandelier Arms -->
+  <line x1="400" y1="150" x2="350" y2="200" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <line x1="400" y1="150" x2="450" y2="200" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <line x1="400" y1="150" x2="370" y2="220" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  <line x1="400" y1="150" x2="430" y2="220" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+  
+  <!-- Chandelier Lights -->
+  <circle cx="350" cy="200" r="5" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="450" cy="200" r="5" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="370" cy="220" r="5" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="430" cy="220" r="5" fill="#FFFFFF" opacity="0.6" />
+  
+  <!-- Tables -->
+  <circle cx="200" cy="480" r="30" fill="#FFFFFF" opacity="0.2" />
+  <circle cx="400" cy="480" r="30" fill="#FFFFFF" opacity="0.2" />
+  <circle cx="600" cy="480" r="30" fill="#FFFFFF" opacity="0.2" />
+  
+  <!-- Section Title (for placeholder only) -->
+  <text x="400" y="100" font-family="serif" font-size="30" fill="#FFFFFF" text-anchor="middle" opacity="0.9">THE GRAND BALLROOM</text>
+  <text x="400" y="550" font-family="serif" font-size="18" fill="#D4AF37" text-anchor="middle" opacity="0.8">ELEGANT VENUE</text>
+</svg>

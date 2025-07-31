@@ -1,0 +1,135 @@
+/* Custom Styles for Deva's International */
+
+/* Base Styles */
+body {
+    color: #3E2723;
+}
+
+/* Animation Classes */
+.animate-fade-in {
+    animation: fadeIn 1.2s ease forwards;
+}
+
+.animation-delay-300 {
+    animation-delay: 300ms;
+}
+
+.animation-delay-600 {
+    animation-delay: 600ms;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navbar Styles */
+#navbar {
+    transition: all 0.3s ease;
+}
+
+#navbar.scrolled {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Image Hover Effects */
+.hover-zoom {
+    transition: transform 0.5s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+/* Button Styles */
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: #F5DEB3;
+    color: #3E2723;
+}
+
+.btn-outline {
+    border: 2px solid #3E2723;
+    color: #3E2723;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #3E2723;
+    color: white;
+}
+
+/* Section Styles */
+section {
+    scroll-margin-top: 80px; /* For smooth scrolling with fixed header */
+}
+
+/* Gallery Image Hover Effect */
+#gallery img {
+    transition: all 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Styles */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #D4AF37;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3E2723;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+}
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    transition: all 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#mobile-menu.open {
+    max-height: 500px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,52 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#3E2723" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Family Elements -->
+  <circle cx="300" cy="200" r="120" fill="#D4AF37" opacity="0.1" filter="url(#blur)" />
+  
+  <!-- Adult Figure 1 -->
+  <circle cx="250" cy="180" r="20" fill="#FFFFFF" opacity="0.6" />
+  <rect x="240" y="200" width="20" height="60" fill="#FFFFFF" opacity="0.6" rx="5" ry="5" />
+  
+  <!-- Adult Figure 2 -->
+  <circle cx="350" cy="180" r="20" fill="#FFFFFF" opacity="0.6" />
+  <rect x="340" y="200" width="20" height="60" fill="#FFFFFF" opacity="0.6" rx="5" ry="5" />
+  
+  <!-- Child Figure 1 -->
+  <circle cx="280" cy="220" r="15" fill="#FFFFFF" opacity="0.6" />
+  <rect x="275" y="235" width="10" height="40" fill="#FFFFFF" opacity="0.6" rx="3" ry="3" />
+  
+  <!-- Child Figure 2 -->
+  <circle cx="320" cy="220" r="15" fill="#FFFFFF" opacity="0.6" />
+  <rect x="315" y="235" width="10" height="40" fill="#FFFFFF" opacity="0.6" rx="3" ry="3" />
+  
+  <!-- Decorative Elements -->
+  <rect x="150" y="300" width="300" height="5" fill="#D4AF37" opacity="0.4" rx="2" ry="2" />
+  
+  <!-- Sun Element -->
+  <circle cx="450" cy="100" r="30" fill="#D4AF37" opacity="0.4" />
+  <line x1="450" y1="50" x2="450" y2="70" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="450" y1="130" x2="450" y2="150" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="400" y1="100" x2="420" y2="100" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="480" y1="100" x2="500" y2="100" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="415" y1="65" x2="430" y2="80" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="470" y1="120" x2="485" y2="135" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="415" y1="135" x2="430" y2="120" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  <line x1="470" y1="80" x2="485" y2="65" stroke="#D4AF37" stroke-width="3" opacity="0.4" />
+  
+  <!-- Package Title (for placeholder only) -->
+  <text x="300" y="100" font-family="serif" font-size="30" fill="#FFFFFF" text-anchor="middle" opacity="0.9">FAMILY VACATION</text>
+  <text x="300" y="350" font-family="serif" font-size="18" fill="#D4AF37" text-anchor="middle" opacity="0.8">LUXURY PACKAGE</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+    <radialGradient id="light-glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- City Skyline Silhouette -->
+  <path d="M0,250 L50,250 L50,200 L100,200 L100,220 L150,220 L150,180 L200,180 L200,150 L250,150 L250,200 L300,200 L300,170 L350,170 L350,220 L400,220 L400,180 L450,180 L450,150 L500,150 L500,200 L550,200 L550,170 L600,170 L600,130 L650,130 L650,170 L700,170 L700,200 L750,200 L750,150 L800,150 L800,180 L850,180 L850,120 L900,120 L900,180 L950,180 L950,200 L1000,200 L1000,150 L1050,150 L1050,180 L1100,180 L1100,220 L1150,220 L1150,250 L1200,250 L1200,400 L0,400 Z" fill="#000000" opacity="0.7" />
+  
+  <!-- Gateway of India Silhouette -->
+  <path d="M600,250 L600,130 L620,130 L620,100 L580,100 L580,130 L600,130 M590,100 L590,80 L610,80 L610,100 M580,130 L580,250 L620,250 L620,130" fill="#000000" opacity="0.8" />
+  
+  <!-- Marine Drive Curve -->
+  <path d="M200,300 Q600,400 1000,300" stroke="#FFFFFF" stroke-width="2" opacity="0.5" fill="none" />
+  <path d="M200,310 Q600,410 1000,310" stroke="#29B6F6" stroke-width="4" opacity="0.3" fill="none" />
+  
+  <!-- Street Lights along Marine Drive -->
+  <circle cx="250" cy="300" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="250" y1="300" x2="250" y2="290" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="350" cy="310" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="350" y1="310" x2="350" y2="300" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="450" cy="320" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="450" y1="320" x2="450" y2="310" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="550" cy="325" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="550" y1="325" x2="550" y2="315" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="650" cy="325" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="650" y1="325" x2="650" y2="315" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="750" cy="320" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="750" y1="320" x2="750" y2="310" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="850" cy="310" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="850" y1="310" x2="850" y2="300" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <circle cx="950" cy="300" r="3" fill="#FFFFFF" opacity="0.8" />
+  <line x1="950" y1="300" x2="950" y2="290" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <!-- Temple Silhouette -->
+  <path d="M850,180 L850,120 L870,100 L890,120 L890,180 L850,180 Z" fill="#000000" opacity="0.8" />
+  <path d="M860,180 L860,130 L870,120 L880,130 L880,180 L860,180 Z" fill="#000000" opacity="0.9" />
+  
+  <!-- Moon -->
+  <circle cx="200" cy="80" r="30" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="190" cy="70" r="25" fill="url(#bg-gradient)" opacity="0.5" />
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="300" cy="70" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="400" cy="40" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="500" cy="60" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="600" cy="30" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="700" cy="50" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="800" cy="40" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="900" cy="60" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="1000" cy="30" r="1" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="1100" cy="50" r="1" fill="#FFFFFF" opacity="0.8" />
+  
+  <!-- Reflections in Water -->
+  <rect x="0" y="250" width="1200" height="150" fill="#000000" opacity="0.3" />
+  <path d="M0,250 L50,250 L50,200 L100,200 L100,220 L150,220 L150,180 L200,180 L200,150 L250,150 L250,200 L300,200 L300,170 L350,170 L350,220 L400,220 L400,180 L450,180 L450,150 L500,150 L500,200 L550,200 L550,170 L600,170 L600,130 L650,130 L650,170 L700,170 L700,200 L750,200 L750,150 L800,150 L800,180 L850,180 L850,120 L900,120 L900,180 L950,180 L950,200 L1000,200 L1000,150 L1050,150 L1050,180 L1100,180 L1100,220 L1150,220 L1150,250 L1200,250" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.1" transform="scale(1,-0.5) translate(0,-750)" filter="url(#blur)" />
+  
+  <!-- Title -->
+  <text x="600" y="350" font-family="serif" font-size="36" fill="#FFFFFF" text-anchor="middle" opacity="0.9">LOCAL ATTRACTIONS</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="380" font-family="serif" font-size="18" fill="#D4AF37" text-anchor="middle" opacity="0.9">DISCOVER THE WONDERS OF MUMBAI</text>
+  
+  <!-- Decorative Elements -->
+  <line x1="400" y1="350" x2="500" y2="350" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+  <line x1="700" y1="350" x2="800" y2="350" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+</svg>

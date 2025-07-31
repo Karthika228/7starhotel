@@ -1,0 +1,81 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+    <radialGradient id="candle-glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Dining Table -->
+  <ellipse cx="300" cy="250" rx="150" ry="60" fill="#D4AF37" opacity="0.2" />
+  <ellipse cx="300" cy="250" rx="140" ry="55" fill="#3E2723" opacity="0.3" />
+  
+  <!-- Table Cloth -->
+  <path d="M170,250 Q300,280 430,250 L430,260 Q300,290 170,260 Z" fill="#FFFFFF" opacity="0.2" />
+  
+  <!-- Plates -->
+  <circle cx="230" cy="230" r="30" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="230" cy="230" r="25" fill="#3E2723" opacity="0.1" />
+  
+  <circle cx="370" cy="230" r="30" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="370" cy="230" r="25" fill="#3E2723" opacity="0.1" />
+  
+  <!-- Wine Glasses -->
+  <path d="M260,190 L270,220 L250,220 Z" fill="#FFFFFF" opacity="0.4" />
+  <rect x="258" y="220" width="4" height="15" fill="#FFFFFF" opacity="0.4" />
+  <ellipse cx="260" cy="235" rx="8" ry="2" fill="#FFFFFF" opacity="0.4" />
+  
+  <path d="M340,190 L350,220 L330,220 Z" fill="#FFFFFF" opacity="0.4" />
+  <rect x="338" y="220" width="4" height="15" fill="#FFFFFF" opacity="0.4" />
+  <ellipse cx="340" cy="235" rx="8" ry="2" fill="#FFFFFF" opacity="0.4" />
+  
+  <!-- Wine Bottle -->
+  <rect x="290" y="190" width="20" height="60" rx="5" ry="5" fill="#3E2723" opacity="0.7" />
+  <rect x="295" y="180" width="10" height="10" rx="2" ry="2" fill="#3E2723" opacity="0.7" />
+  <ellipse cx="300" cy="250" rx="10" ry="3" fill="#3E2723" opacity="0.5" />
+  
+  <!-- Cutlery -->
+  <rect x="200" y="230" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  <rect x="200" y="240" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  
+  <rect x="245" y="230" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  <rect x="245" y="240" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  
+  <rect x="340" y="230" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  <rect x="340" y="240" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  
+  <rect x="385" y="230" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  <rect x="385" y="240" width="15" height="2" fill="#D4AF37" opacity="0.6" />
+  
+  <!-- Candles -->
+  <circle cx="300" cy="150" r="30" fill="url(#candle-glow)" opacity="0.5" />
+  <rect x="298" y="210" width="4" height="20" fill="#D4AF37" opacity="0.6" />
+  <ellipse cx="300" cy="210" rx="2" ry="1" fill="#FFFFFF" opacity="0.8" />
+  
+  <!-- Butler Silhouette -->
+  <path d="M500,200 L520,200 L520,150 L510,130 L500,150 Z" fill="#000000" opacity="0.7" />
+  <circle cx="510" cy="120" r="10" fill="#000000" opacity="0.7" />
+  <rect x="505" y="200" width="10" height="50" fill="#000000" opacity="0.7" />
+  <path d="M505,250 L500,300 L520,300 L515,250 Z" fill="#000000" opacity="0.7" />
+  <rect x="490" y="200" width="10" height="30" fill="#000000" opacity="0.7" transform="rotate(30, 490, 200)" />
+  <rect x="520" y="200" width="10" height="30" fill="#000000" opacity="0.7" transform="rotate(-30, 530, 200)" />
+  
+  <!-- Decorative Elements -->
+  <rect x="100" y="100" width="400" height="2" fill="#D4AF37" opacity="0.4" />
+  <rect x="100" y="300" width="400" height="2" fill="#D4AF37" opacity="0.4" />
+  
+  <!-- Experience Title (for placeholder only) -->
+  <text x="300" y="80" font-family="serif" font-size="24" fill="#FFFFFF" text-anchor="middle" opacity="0.9">PRIVATE DINING</text>
+  <text x="300" y="350" font-family="serif" font-size="16" fill="#D4AF37" text-anchor="middle" opacity="0.8">PERSONALIZED CULINARY JOURNEY</text>
+</svg>
