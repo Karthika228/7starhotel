@@ -1,0 +1,113 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3E2723" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </filter>
+    <radialGradient id="light-glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Gallery Grid -->
+  <!-- Row 1 -->
+  <rect x="100" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="270" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="440" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="610" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="780" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="950" y="100" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  
+  <!-- Row 2 -->
+  <rect x="100" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="270" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="440" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="610" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="780" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  <rect x="950" y="220" width="150" height="100" fill="#FFFFFF" opacity="0.1" rx="5" ry="5" />
+  
+  <!-- Gallery Image Placeholders -->
+  <!-- Row 1 Images -->
+  <!-- Image 1: Hotel Exterior -->
+  <rect x="110" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="150" y="130" width="50" height="40" fill="#FFFFFF" opacity="0.3" />
+  <path d="M150,130 L175,110 L200,130 Z" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- Image 2: Luxury Suite -->
+  <rect x="280" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="300" y="140" width="90" height="30" fill="#FFFFFF" opacity="0.3" rx="2" ry="2" />
+  <rect x="320" y="120" width="50" height="20" fill="#FFFFFF" opacity="0.3" rx="2" ry="2" />
+  
+  <!-- Image 3: Infinity Pool -->
+  <rect x="450" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="460" y="150" width="110" height="30" fill="#29B6F6" opacity="0.3" rx="2" ry="2" />
+  <line x1="460" y1="150" x2="570" y2="150" stroke="#FFFFFF" stroke-width="1" opacity="0.5" />
+  
+  <!-- Image 4: Fine Dining -->
+  <rect x="620" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <circle cx="685" cy="150" r="20" fill="#FFFFFF" opacity="0.2" />
+  <circle cx="685" cy="150" r="15" fill="#D4AF37" opacity="0.2" />
+  
+  <!-- Image 5: Spa -->
+  <rect x="790" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <circle cx="855" cy="140" r="15" fill="#FFFFFF" opacity="0.3" />
+  <circle cx="825" cy="160" r="10" fill="#FFFFFF" opacity="0.3" />
+  <circle cx="885" cy="160" r="10" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- Image 6: Ballroom -->
+  <rect x="960" y="110" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <circle cx="1025" cy="130" r="15" fill="url(#light-glow)" opacity="0.5" />
+  <rect x="980" y="150" width="90" height="30" fill="#FFFFFF" opacity="0.1" />
+  
+  <!-- Row 2 Images -->
+  <!-- Image 7: Helicopter Tour -->
+  <rect x="110" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <path d="M150,250 L175,240 L200,250 L175,260 Z" fill="#FFFFFF" opacity="0.3" />
+  <line x1="175" y1="240" x2="175" y2="260" stroke="#FFFFFF" stroke-width="2" opacity="0.5" />
+  
+  <!-- Image 8: Cultural Experience -->
+  <rect x="280" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <path d="M330,250 Q345,230 360,250 Q345,270 330,250 Z" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- Image 9: Private Dining -->
+  <rect x="450" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="480" y="250" width="70" height="40" fill="#FFFFFF" opacity="0.2" rx="2" ry="2" />
+  <circle cx="515" cy="250" r="10" fill="url(#light-glow)" opacity="0.5" />
+  
+  <!-- Image 10: Executive Boardroom -->
+  <rect x="620" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="640" y="260" width="90" height="30" fill="#FFFFFF" opacity="0.2" rx="2" ry="2" />
+  <rect x="650" y="240" width="70" height="10" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- Image 11: Lobby -->
+  <rect x="790" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <rect x="810" y="270" width="90" height="30" fill="#FFFFFF" opacity="0.2" />
+  <circle cx="855" cy="250" r="15" fill="url(#light-glow)" opacity="0.5" />
+  
+  <!-- Image 12: Local Attractions -->
+  <rect x="960" y="230" width="130" height="80" fill="#D4AF37" opacity="0.2" rx="3" ry="3" />
+  <path d="M1000,250 L1025,230 L1050,250 L1025,270 Z" fill="#FFFFFF" opacity="0.2" />
+  <path d="M1010,270 L1040,270 L1025,240 Z" fill="#FFFFFF" opacity="0.3" />
+  
+  <!-- Decorative Elements -->
+  <rect x="100" y="80" width="1000" height="2" fill="#D4AF37" opacity="0.6" />
+  <rect x="100" y="340" width="1000" height="2" fill="#D4AF37" opacity="0.6" />
+  
+  <!-- Title -->
+  <text x="600" y="350" font-family="serif" font-size="36" fill="#FFFFFF" text-anchor="middle" opacity="0.9">GALLERY</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="380" font-family="serif" font-size="18" fill="#D4AF37" text-anchor="middle" opacity="0.9">GLIMPSES OF LUXURY</text>
+  
+  <!-- Decorative Elements -->
+  <line x1="400" y1="350" x2="500" y2="350" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+  <line x1="700" y1="350" x2="800" y2="350" stroke="#D4AF37" stroke-width="1" opacity="0.6" />
+</svg>
